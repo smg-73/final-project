@@ -1,5 +1,5 @@
 body{
-    background-image: url("images/blue-circuit.jpg");
+    background-image: url("images/white-background.png");
     background-size: cover;
-    background-size: no-repeat; 
+    background: no-repeat; 
   }
