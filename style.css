@@ -1,5 +1,65 @@
+
 body{
     background-image: url("images/white-background.png");
     background-size: cover;
     background: no-repeat; 
   }
+
+body {
+  background-image: url("images/white-background.png");
+  background-size: cover;
+  background-size: no-repeat;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  max-width: 100%;
+  border: turquoise solid 2px;
+  text-align: center;
+}
+
+nav {
+  max-width: 100%;
+
+  margin: 0 5px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-right: 35px;
+}
+
+nav ul li {
+  margin: 5px;
+  background: gray;
+  padding: 10px;
+  border-radius: 1rem;
+  list-style-type: none;
+}
+
+nav a {
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  /* text-decoration: underline; */
+  border-bottom: 2px solid;
+}
+
+.info img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -80px;
+  width: 100%;
+
+  /* height: auto; */
+}
