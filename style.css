@@ -1,3 +1,26 @@
+<<<<<<< HEAD
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Baloo;
+  background-image:url(images/medgar-evers.jpg);
+  background-position: center center;
+  -webkit-background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  
+}
+
+header .teamIII{
+  color:white;
+  font-size: 30px;
+  float: left;
+  font-family: sans-serif;
+  padding: 15px 60px;
+  width: 42%
+
+  
+=======
 
 body{
     background-image: url("images/white-background.png");
@@ -22,32 +45,126 @@ nav {
   max-width: 100%;
   margin: 0 5px;
   padding-bottom: 10px;
+>>>>>>> master
 }
-
-nav ul {
+header nav{
+  float: right;
+}
+header nav ul{
+  margin: 0;
+  padding: 0;
+  margin-top: 0;
   display: flex;
+<<<<<<< HEAD
+=======
   justify-content: center;
   justify-content: space-around;
   padding: 0 30px 0 40px;
   background-color: silver;
   border-radius: 1rem;
   border: black solid 1px;
+>>>>>>> master
 }
+header nav ul li{
+  width: 50px;
+  height: 70px;
+  list-style: none;
+  line-height: 60px;
+  padding: 20px;
+  text-align: center;
 
+<<<<<<< HEAD
+=======
 nav ul li {
   margin: 5px;
   border-right: black solid 1px;
   padding-right: 10px;
   list-style-type: none;
   font-weight: bold;
+>>>>>>> master
 }
+header nav ul li:hover{
+  color: #000;
+  background: yellow
 
-nav a {
-  letter-spacing: 2px;
+}
+header nav ul li a{
+  color: white;
   text-decoration: none;
-  color: black;
+  display: block;
+  font-family:  baloo;
+  text-transform: uppercase;
+  margin: -20%;
+  font-size: 15px;
+
 }
 
+header nav ul li a:hover,
+.active{
+  color: black;
+  font-weight: bold;
+  background: yellow;
+
+}
+.menu{
+  color:white;
+  float:right;
+  line-height: 60px;
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+}
+@media (max-width:991px){
+  header{
+    padding: 0 20px;
+  }
+  .menu{
+    display: block;
+    float: right;
+
+   }
+   header nav{
+     position: absolute;
+     width: 10%;
+     height: calc(0vh - 0px);
+     top: 50px;
+     left: -100%;
+     transition: 10%;
+     float: right;
+  
+   }
+   header nav.active{
+    left: 0;
+
+   }
+   header nav ul{
+     display: block;
+     text-align: center;
+   }
+   header nav ul li a{
+    border-bottom: 1px solid #CBCE91FF;
+
+<<<<<<< HEAD
+     
+}
+
+}
+.info{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: yellow;
+  width: auto;
+  text-align: center;
+  font-family: sans-serif;
+  margin: 0;
+
+}
+.cuny-img{
+  width: 90%;
+  text-align: center;
+=======
 nav a:hover {
   text-decoration: underline;
   border-bottom: 2px solid;
@@ -157,4 +274,5 @@ footer {
 .sixto-lists {
   display: flex;
   flex-direction: row;
+>>>>>>> master
 }
