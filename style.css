@@ -1,22 +1,22 @@
 body {
   margin: 0;
   padding: 0;
-  height:100vh;
+  height: 100vh;
   width: 100%;
   font-family: "Montserrat", sans-serif;
-  background: linear-gradient(-45deg, #EE7752,#E73C7E, #23A6D5, #23D5AB);
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 400% 400%;
   position: relative;
   animation: change 10s ease-in-out infinite;
 }
-@keyframes change{
-  0%{
+@keyframes change {
+  0% {
     background-position: 0 50%;
   }
-  50%{
+  50% {
     background-position: 100% 50%;
   }
-  100%{
+  100% {
     background-position: 0 50%;
   }
 }
@@ -30,12 +30,13 @@ header {
   box-sizing: border-box;
 }
 header .teamIII {
-  color: #cbce91ff;
+  color: silver;
   height: 50px;
   line-height: 50px;
   font-size: 30px;
   float: left;
   font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 header nav {
   float: right;
@@ -73,19 +74,42 @@ header nav ul li a:hover,
 }
 
 img {
-  border: #76528bff solid 3px;
+  border: #76528bff solid 8px;
+  margin-top: 5rem;
+  border-radius: 1rem;
+}
+.info h1 {
+  max-width: 50%;
+  font-size: 3.5rem;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: silver;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  background-color: rbga(0, 0, 0, 0.8);
 }
 
-.infoWelcome {
-  border: #76528bff outset 10px;
+.info p {
+  text-align: center;
+  margin-right: 20%;
+  margin-left: 20%;
+  font-size: 25px;
+  padding-top: 20px;
+  letter-spacing: 2px;
+  line-height: 35px;
 }
 footer {
   background-color: #76528bff;
-  color: black;
-  position: relative;
+  color: silver;
+
+  /* position: relative; */
+  margin-top: 50%;
   left: 0;
+  top: 0;
   bottom: 0;
-  /* width: 100%; */
+  width: 100%;
   padding: 0.5rem;
   text-align: center;
 }
@@ -116,12 +140,27 @@ footer {
   header nav ul li a {
     border-bottom: 1px solid #cbce91ff;
   }
+
+  .info h1 {
+    display: none;
+  }
+
+  .info p {
+    text-align: center;
+    margin-right: 20%;
+    margin-left: 20%;
+    font-size: 15px;
+    padding-top: 20px;
+    letter-spacing: 2px;
+    line-height: 35px;
+  }
 }
 
 .cuny-img {
   width: 90%;
   text-align: center;
 }
+
 .info {
   text-align: center;
   width: auto;
