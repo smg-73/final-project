@@ -1,278 +1,107 @@
-<<<<<<< HEAD
-body{
+body {
   margin: 0;
   padding: 0;
   font-family: Baloo;
-  background-image:url(images/medgar-evers.jpg);
+  background-image: url(images/medgar-evers.jpg);
   background-position: center center;
   -webkit-background-size: cover;
   height: 100vh;
   background-repeat: no-repeat;
-  
 }
 
-header .teamIII{
-  color:white;
+header .teamIII {
+  color: white;
   font-size: 30px;
   float: left;
   font-family: sans-serif;
   padding: 15px 60px;
-  width: 42%
-
-  
-=======
-
-body{
-    background-image: url("images/white-background.png");
-    background-size: cover;
-    background: no-repeat; 
-  }
-
-body {
-  background-image: url("images/white-background.png");
-  background-size: cover;
-  background-size: no-repeat;
-  font-family: Arial, Helvetica, sans-serif;
+  width: 42%;
 }
-
-header {
-  max-width: 100%;
-  border: silver outset 15px;
-  text-align: center;
-}
-
-nav {
-  max-width: 100%;
-  margin: 0 5px;
-  padding-bottom: 10px;
->>>>>>> master
-}
-header nav{
+header nav {
   float: right;
 }
-header nav ul{
+header nav ul {
   margin: 0;
   padding: 0;
   margin-top: 0;
   display: flex;
-<<<<<<< HEAD
-=======
-  justify-content: center;
-  justify-content: space-around;
-  padding: 0 30px 0 40px;
-  background-color: silver;
-  border-radius: 1rem;
-  border: black solid 1px;
->>>>>>> master
 }
-header nav ul li{
+header nav ul li {
   width: 50px;
   height: 70px;
   list-style: none;
   line-height: 60px;
   padding: 20px;
   text-align: center;
-
-<<<<<<< HEAD
-=======
-nav ul li {
-  margin: 5px;
-  border-right: black solid 1px;
-  padding-right: 10px;
-  list-style-type: none;
-  font-weight: bold;
->>>>>>> master
 }
-header nav ul li:hover{
+header nav ul li:hover {
   color: #000;
-  background: yellow
-
+  background: yellow;
 }
-header nav ul li a{
+header nav ul li a {
   color: white;
   text-decoration: none;
   display: block;
-  font-family:  baloo;
+  font-family: baloo;
   text-transform: uppercase;
   margin: -20%;
   font-size: 15px;
-
 }
 
 header nav ul li a:hover,
-.active{
+.active {
   color: black;
   font-weight: bold;
   background: yellow;
-
 }
-.menu{
-  color:white;
-  float:right;
+.menu {
+  color: white;
+  float: right;
   line-height: 60px;
   font-size: 30px;
   cursor: pointer;
   display: none;
 }
-@media (max-width:991px){
-  header{
+@media (max-width: 991px) {
+  header {
     padding: 0 20px;
   }
-  .menu{
+  .menu {
     display: block;
     float: right;
-
-   }
-   header nav{
-     position: absolute;
-     width: 10%;
-     height: calc(0vh - 0px);
-     top: 50px;
-     left: -100%;
-     transition: 10%;
-     float: right;
-  
-   }
-   header nav.active{
+  }
+  header nav {
+    position: absolute;
+    width: 10%;
+    height: calc(0vh - 0px);
+    top: 50px;
+    left: -100%;
+    transition: 10%;
+    float: right;
+  }
+  header nav.active {
     left: 0;
-
-   }
-   header nav ul{
-     display: block;
-     text-align: center;
-   }
-   header nav ul li a{
-    border-bottom: 1px solid #CBCE91FF;
-
-<<<<<<< HEAD
-     
+  }
+  header nav ul {
+    display: block;
+    text-align: center;
+  }
+  header nav ul li a {
+    border-bottom: 1px solid #cbce91ff;
+  }
 }
-
-}
-.info{
+.info {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   color: yellow;
   width: auto;
   text-align: center;
   font-family: sans-serif;
   margin: 0;
-
 }
-.cuny-img{
+.cuny-img {
   width: 90%;
   text-align: center;
-=======
-nav a:hover {
-  text-decoration: underline;
-  border-bottom: 2px solid;
-}
-
-nav ul li:last-child {
-  border: none;
-}
-
-.info img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: -32px;
-  width: 100%;
-
-  height: auto;
-}
-
-.infoParagraph {
-  max-width: 100%;
-  border-bottom: double 15px silver;
-  border-right: double 15px silver;
-  border-left: double 15px silver;
-  border-bottom-left-radius: 1rem;
-  border-bottom-right-radius: 1rem; /* background-color: silver; */
-  color: black;
-  padding: 5px;
-  text-align: center;
-  margin: 0;
-  margin-bottom: 2rem;
-}
-
-.infoWelcome {
-  /* background-color: silver; */
-  border-top: double 15px silver;
-  border-right: double 15px silver;
-  border-left: double 15px silver;
-  border-bottom: solid 2px silver;
-  border-top-right-radius: 1rem;
-  border-top-left-radius: 1rem;
-
-  text-align: center;
-  padding: 5px;
-  margin: 0;
-}
-
-footer {
-  background: black;
-  color: white;
-  text-align: center;
-  border-top: silver solid 2px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  margin-bottom: 0;
-  width: 100%;
-}
-
-/* sixto's page */
-
-#sixto-h1 {
-  text-align: center;
-  padding-bottom: 1rem;
-  padding-top: 1rem;
-  margin-top: 0;
-  border-bottom: black double 10px;
-  border-top: black double 10px;
-  border-radius: 4rem;
-  background-color: white;
-}
-
-#sixto-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  height: auto;
-}
-
-#sixto-aboutMe {
-  text-align: center;
-  margin-top: 3rem;
-  font-size: 150%;
-}
-
-#sixto-aboutMe:hover {
-  background-color: black;
-  color: white;
-  padding: 10px;
-  border: solid white 5px;
-}
-
-/* #sixto-h3:hover {
-  background-color: black;
-  color: white;
-} */
-
-#sixto-p {
-  background-color: white;
-  display: flex;
-  justify-content: center;
-  font-family: Haettenschweiler, "Arial Narrow Bold", serif;
-  border: ridge silver 10px;
-  padding: 15px;
-}
-
-.sixto-lists {
-  display: flex;
-  flex-direction: row;
->>>>>>> master
 }
