@@ -1,107 +1,105 @@
-body {
+body{
   margin: 0;
   padding: 0;
-  font-family: Baloo;
-  background-image: url(images/medgar-evers.jpg);
-  background-position: center center;
-  -webkit-background-size: cover;
-  height: 100vh;
-  background-repeat: no-repeat;
+  font-family: 'Montserrat', sans-serif;
 }
-
-header .teamIII {
-  color: white;
+header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0, 100%;
+  background: #76528BFF;
+  width: 100%;
+  box-sizing: border-box;
+}
+header .teamIII{
+  color: #CBCE91FF;
+  height: 50px;
+  line-height: 50px;
   font-size: 30px;
-  float: left;
-  font-family: sans-serif;
-  padding: 15px 60px;
-  width: 42%;
+  float:left;
+  font-weight: bold;
+  
 }
-header nav {
+header nav{
   float: right;
 }
-header nav ul {
+header nav ul{
   margin: 0;
   padding: 0;
-  margin-top: 0;
   display: flex;
 }
-header nav ul li {
-  width: 50px;
-  height: 70px;
+header nav ul li{
   list-style: none;
-  line-height: 60px;
-  padding: 20px;
-  text-align: center;
+
 }
-header nav ul li:hover {
-  color: #000;
-  background: yellow;
-}
-header nav ul li a {
-  color: white;
+header nav ul li a{
+  height: 50px;
+  line-height: 50px;
+  padding: 0 80px;
+  color: #CBCE91FF;
   text-decoration: none;
   display: block;
-  font-family: baloo;
-  text-transform: uppercase;
-  margin: -20%;
-  font-size: 15px;
+  text-align: center;
+
 }
 
 header nav ul li a:hover,
-.active {
-  color: black;
-  font-weight: bold;
-  background: yellow;
+.active{
+  color: #CBCE91FF;
+  background: rgba(0, 0, 0, 0.3);
+
 }
-.menu {
-  color: white;
-  float: right;
-  line-height: 60px;
-  font-size: 30px;
+.menu{
+  color:#CBCE91FF;
+  float:right;
+  line-height: 50px;
+  font-size: 25px;
   cursor: pointer;
   display: none;
 }
-@media (max-width: 991px) {
-  header {
+@media (max-width:991px){
+  header{
     padding: 0 20px;
   }
-  .menu {
+  .menu{
     display: block;
-    float: right;
-  }
-  header nav {
-    position: absolute;
-    width: 10%;
-    height: calc(0vh - 0px);
-    top: 50px;
-    left: -100%;
-    transition: 10%;
-    float: right;
-  }
-  header nav.active {
-    left: 0;
-  }
-  header nav ul {
-    display: block;
-    text-align: center;
-  }
-  header nav ul li a {
-    border-bottom: 1px solid #cbce91ff;
-  }
+
+   }
+   header nav{
+     position: absolute;
+     width: 100%;
+     height: calc(100vh - 50px);
+     background: #CBCE91FF;
+     top: 50px;
+     left: -100%;
+     transition: 10%;
+   }
+   header nav.active{
+     left: 0;
+
+   }
+   header nav ul{
+     display: block;
+     text-align: center;
+   }
+   header nav ul li a{
+     border-bottom: 1px solid #CBCE91FF;
+
+   }
+
 }
-.info {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: yellow;
-  width: auto;
-  text-align: center;
-  font-family: sans-serif;
-  margin: 0;
-}
+
 .cuny-img {
   width: 90%;
   text-align: center;
+}
+.info{
+  text-align: center;
+  width: auto;
+
+}
+.homeFooter{
+  text-align: center;
+  margin-top: 4rem;
 }
