@@ -158,6 +158,9 @@ body {
     margin-top: 5%;
     font-family: 'Century Gothic', sans-serif;
     color: silver;
+  }
+  .name li{
+    list-style-type: none;
     
   }
   ul{
