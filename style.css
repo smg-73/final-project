@@ -53,7 +53,7 @@ header nav ul li a {
   height: 50px;
   line-height: 50px;
   padding: 0 80px;
-  color: #cbce91ff;
+  color: silver;
   text-decoration: none;
   display: block;
   text-align: center;
@@ -61,11 +61,11 @@ header nav ul li a {
 
 header nav ul li a:hover,
 .active {
-  color: #cbce91ff;
+  color: silver;
   background: rgba(0, 0, 0, 0.3);
 }
 .menu {
-  color: #cbce91ff;
+  color: silver;
   float: right;
   line-height: 50px;
   font-size: 25px;
