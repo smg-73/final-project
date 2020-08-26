@@ -26,7 +26,7 @@ header{
   top: 0;
   left: 0;
   padding: 0, 100%;
-  background: #76528BFF;
+  background: #23a6d5;
   width: 100%;
   box-sizing: border-box;
 }
@@ -241,7 +241,7 @@ h1{
 }
 
 footer {
-  background-color: #76528BFF;
+  background-color: #23a6d5;
   color: silver;
   position: relative; 
   left: 0;
