@@ -3,64 +3,100 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MDWADUD</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>TEAM III</title>
+    <link rel="stylesheet" href="style-wes.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
-    <header class="homeHeader">
-      <h1>Team 3 Final Project</h1>
+    <header>
+      <div class="teamIII">TEAM III</div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="wesley.html">Wesley</a></li>
+          <li><a href="mdwadud.html" class="active">MD Wadud</a></li>
+          <li><a href="sixto.html">Sixto</a></li>
+        </ul>
+      </nav>
+      <div class="menu"><i class="fa fa-bars" aria-hidden="true"></i></div>
     </header>
-    <script src="main.js"></script>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="wesley.html">Wesley</a></li>
-        <li><a href="sixto.html">Sixto</a></li>
-      </ul>
-    </nav>
-    <h1>MD ABDULLAH ALL WADUD</h1>
-    <p>
-      As we all know, health is wealth. A healthy body can boost the
-      productivity of doing any task, making it more efficient than an unhealthy
-      body. Unfortunately, there are some objects that are directly and
-      unknowingly affecting our health every day. One of the greatest issues is
-      an unbounded use of technology. The technology was always a better idea
-      for humankind, but nowadays, it is becoming harmful for our society. It
-      affects family, children, and community in many ways. We are getting new
-      and irregular symptoms that have not existed before. We can say it is an
-      early threat to our next generation if we do not use technology the right
-      way. Unlimited use of digital technologies can cause failing memories,
-      emotional instability, strained vision, hearing loss, muscle and joint
-      pain, heart trouble, premature death, and addiction.
-    </p>
 
-    <h2>SPECIAL PROJECTS</h2>
-    <ol>
-      <li>UNIX System Programming</li>
-      <li>JDisaster Management Team Leader</li>
-      <li>Html & CSS/Java Script exposure</li>
-      <li>
-        NASA Space Grant/Medgar Evers College, Brooklyn, NY – Jan. 2019 – May
-        2019
-      </li>
-      <li>
-        Shadowing Intern – Interfaith Medical Center, Brooklyn, NY – June 2019
-      </li>
-    </ol>
+    <div class="name">
+      
+      <p>
+        <h1>MD ABDULLAH ALL WADUD</h1>
+        As we all know, health is wealth. A healthy body can boost the
+        productivity of doing any task, making it more efficient than an
+        unhealthy body. Unfortunately, there are some objects that are directly
+        and unknowingly affecting our health every day. One of the greatest
+        issues is an unbounded use of technology. The technology was always a
+        better idea for humankind, but nowadays, it is becoming harmful for our
+        society. It affects family, children, and community in many ways. We are
+        getting new and irregular symptoms that have not existed before. We can
+        say it is an early threat to our next generation if we do not use
+        technology the right way. Unlimited use of digital technologies can
+        cause failing memories, emotional instability, strained vision, hearing
+        loss, muscle and joint pain, heart trouble, premature death, and
+        addiction.
+      </p>
 
-    <h2>HONORS & AWARDS</h2>
-    <ol>
-      <li>CS Student Programming Contest MEC-NY May 8, 2020</li>
-      <li>Donor of the Parris Family Scholarship MEC-NY 2020</li>
-      <li>
-        Community Council Academic Achievement Award (Scholarship), Medgar Evers
-        College, Brooklyn, NY – 2019
-      </li>
-    </ol>
-    <h3>a Some of the project I did throughout my College years.</h3>
-    <li><a href="https://github.com/MDWADUD"> GitHUB</a></li>
-    <footer class="homeFooter">
-      Summer 2020 CUNY 2X @ MEC Web Development Bootcamp
-    </footer>
+      <h2>SPECIAL PROJECTS</h2>
+      <ol>
+        <li>UNIX System Programming</li>
+        <li>JDisaster Management Team Leader</li>
+        <li>Html & CSS/Java Script exposure</li>
+        <li>
+          NASA Space Grant/Medgar Evers College, Brooklyn, NY – Jan. 2019 – May
+          2019
+        </li>
+        <li>
+          Shadowing Intern – Interfaith Medical Center, Brooklyn, NY – June 2019
+        </li>
+      </ol>
+
+      <h2>HONORS & AWARDS</h2>
+      <ol>
+        <li>CS Student Programming Contest MEC-NY May 8, 2020</li>
+        <li>Donor of the Parris Family Scholarship MEC-NY 2020</li>
+        <li>
+          Community Council Academic Achievement Award (Scholarship), Medgar
+          Evers College, Brooklyn, NY – 2019
+        </li>
+      </ol>
+      <h3>a Some of the project I did throughout my College years.</h3>
+      <li><a href="https://github.com/MDWADUD"> GitHUB</a></li>
+      <h1>Social</h1>
+      <div class="social">
+        <a class="a1" href="http://facebook.com">
+          <i class="fa fa-facebook-official" aria-hidden="true"></i
+        ></a>
+        <a class="a1" href="http://instagram.com"
+          ><i class="fa fa-instagram" aria-hidden="true"></i
+        ></a>
+        <a class="a1" href="http://linkedin.com"
+          ><i class="fa fa-linkedin-square" aria-hidden="true"></i
+        ></a>
+        <a class="a1" href="http://twitter.com"
+          ><i class="fa fa-twitter-square" aria-hidden="true"></i
+        ></a>
+        <a class="a1" href="http://github.com/wesleyboston"
+          ><i class="fa fa-github" aria-hidden="true"></i
+        ></a>
+      </div>
+      <footer class="homeFooter">
+        Summer 2020 CUNY 2X @ MEC Web Development Bootcamp
+      </footer>
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+      <script type="text/javascript">
+        $(document).ready(function () {
+          $(".menu").click(function () {
+            $("nav").toggleClass("active");
+          });
+        });
+      </script>
+    </div>
   </body>
 </html>

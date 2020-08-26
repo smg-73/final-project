@@ -6,7 +6,7 @@ body {
   font-family: "Montserrat", sans-serif;
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 400% 400%;
-  position: relative;
+  /* position: relative; */
   animation: change 10s ease-in-out infinite;
 }
 @keyframes change {
@@ -104,7 +104,6 @@ footer {
   background-color: #76528bff;
   color: silver;
 
-  /* position: relative; */
   margin-top: 50%;
   left: 0;
   top: 0;
@@ -138,7 +137,9 @@ footer {
     text-align: center;
   }
   header nav ul li a {
-    border-bottom: 1px solid #cbce91ff;
+    color: silver;
+    font-size: 20px;
+    font-weight: bold;
   }
 
   .info h1 {
