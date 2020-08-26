@@ -15,5 +15,7 @@
 -Sixto Garcia
 -MD Wadud
 
+## Resources 
+ fonts.googleapis.com
 
 
