@@ -5,9 +5,10 @@ body {
   height: 100vh;
   width: 100%;
   font-family: "Montserrat", sans-serif;
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background: linear-gradient(90deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 400% 400%;
   animation: change 10s ease-in-out infinite;
+ 
 }
 @keyframes change {
   0% {
@@ -107,6 +108,46 @@ header nav ul li a:hover,
     
 
    }
+   .a1:hover{
+    transform: scale(2.0);
+    border-radius: 20%;
+  }
+  
+  .a1 i::before{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-size: 200% 200%;
+    background-position:75% 75%;
+    top: 0;
+    left:0;
+    line-height:80px;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    transition: background .5s linear;
+  }
+  .a1:hover i::before{
+    background-position:0% 0%;
+  }
+  .fa-facebook-official::before{
+    background-image: linear-gradient(135deg,#3b5999 30% , silver 50%);
+  }
+  
+  .fa-instagram::before{
+    background-image: linear-gradient(135deg,#e4405f 30%, silver 50%);
+  }
+  
+  .fa-twitter-square::before{
+    background-image: linear-gradient(135deg, #55acee 30%, silver 50%);
+  }
+  
+  .fa-github::before{
+    background-image: linear-gradient(135deg,black 30%, silver 50%);
+  }
+  .fa-linkedin-square::before{
+    background-image: linear-gradient(135deg,#0077B5 30%, silver 50%);
+  }
 
 }
 .name{
@@ -117,11 +158,32 @@ header nav ul li a:hover,
   margin-top: 5%;
   font-family: 'Century Gothic', sans-serif;
   color: silver;
+  
 }
 ul{
   list-style-type: none;
 }
+.name1{
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 50px;
+  text-align: center;
+  line-height: 30px;
+}
 
+.name2{
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 50px;
+  margin-top: 5%;
+}
+.name2 ul{
+  text-align: left;
+  line-height: 30px;
+  
+  
+}
+h1{
+  border-bottom-style: ridge;
+}
 
 .a1{
   margin: 0 10px;
@@ -138,8 +200,8 @@ ul{
 
 
 .a1:hover{
-  transform: scale(1.3);
-  border-radius: 20%;
+  transform: scale(2.0);
+  border-radius: 10%;
 }
 
 .a1 i::before{
@@ -176,4 +238,20 @@ ul{
 }
 .fa-linkedin-square::before{
   background-image: linear-gradient(135deg,#0077B5 30%, silver 50%);
+}
+
+footer {
+  background-color: #76528BFF;
+  color: silver;
+  position: relative; 
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 0.7rem;
+}
+
+.social{
+  margin-top: 10%;  
 }
