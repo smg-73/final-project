@@ -85,7 +85,7 @@ img {
   top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: silver;
+  color: #76528bff;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;
   background-color: rbga(0, 0, 0, 0.8);
@@ -124,7 +124,7 @@ footer {
     position: absolute;
     width: 100%;
     height: calc(100vh - 50px);
-    background: #cbce91ff;
+    background: silver;
     top: 50px;
     left: -100%;
     transition: 10%;
